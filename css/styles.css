@@ -1392,6 +1392,6 @@ textarea {
 
 }
 
-.feedback-submit:hover {
+.feedback-submit:active {
     background-color: var(--button-hover);
 }
