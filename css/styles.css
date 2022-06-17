@@ -716,9 +716,11 @@ img {
     padding-top: 60px;
 }
 
-/* .footer-logo {
-    display: block;
-} */
+.footer-logo {
+    display: inline-flex;
+    /* width: 231px; */
+}
+
 /* .footer-blocks {
     display: flex;
     align-items: baseline;
@@ -734,7 +736,6 @@ img {
     /* margin-bottom: 20px; */
     text-decoration: none;
 }
-
 
 .footer-main {
     display: flex;
@@ -755,12 +756,12 @@ img {
     margin-top: 20px;
 }
 
-
 .adress .adr {
+    display: block;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    justify-content: space-between;
     color: var(--hero);
     text-decoration: none;
 
@@ -792,14 +793,13 @@ img {
 
 .footer-second {
     margin-right: 93px;
-    margin-left: 70px;
+
 }
 
-/* .down-main {
-    display: inline-block;
-    justify-content: baseline;
+.down-main {
+    margin-right: 70px;
 
-} */
+}
 
 .footer-link-item {
     text-transform: uppercase;
@@ -853,7 +853,6 @@ img {
 
 .signup {
     display: block;
-    margin-left: 93px;
 
 }
 
