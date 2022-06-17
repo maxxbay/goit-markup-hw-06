@@ -595,8 +595,8 @@ img {
     background-color: var(--text-link);
 }
 
-.socials .soc-in:hover .web-icon,
-.socials .soc-in:focus .web-icon {
+.soc-in:hover .web-icon,
+.soc-in:focus .web-icon {
     fill: var(--hero);
 }
 
@@ -1305,12 +1305,17 @@ textarea {
 }
 
 .policy-field::before {
-    content: url(/images/vector.svg);
+    content: "";
     position: absolute;
     align-items: center;
     justify-content: center;
     display: flex;
-    opacity: 1;
+    /* opacity: 1; */
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+
 }
 
 
@@ -1344,6 +1349,8 @@ textarea {
 
 .check-icon {
     display: flex;
+    width: 100%;
+    height: 100%;
     position: absolute;
     justify-content: center;
     align-content: center;
@@ -1360,8 +1367,6 @@ textarea {
 .check-box:checked+.icon-policy>.check-icon {
     opacity: 1;
 }
-
-
 
 .check-box:checked+.check-icon {
     display: unset;
